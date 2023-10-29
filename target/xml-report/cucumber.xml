@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.781" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="ViceDean ogrenci olusturabilmeli" name="Oluşturulan Studentin Student Number'inin otomatik geldiğini doğrular" time="32.693">
+<system-out><![CDATA[
+Given Web sayfaasına git....................................................passed
+When login butonuna tıkla...................................................passed
+And Vice dean hesabıyla login ol............................................passed
+And Menu butonuna tıkla.....................................................passed
+And Açılan pencerede student management yazısına tıkla......................passed
+And Choose Teacher yazısına tıkla...........................................passed
+And Çıkan seçeneklerden teacher seç.........................................passed
+And name alanına geçerli veri gir...........................................passed
+And surname alanına geçerli veri gir........................................passed
+And Birth Place alanına geçerli bir veri gir................................passed
+And Geçerli bir email adresi gir............................................passed
+And geçerli bir phone number gir............................................passed
+And gender seç..............................................................passed
+And Date of Birth alanına tıkla  tarih seç..................................passed
+And SSN number gir..........................................................passed
+And Geçerli bir user name gir...............................................passed
+And father name alanına geçerli bir veri gir................................passed
+And mother name alanına geçerli bir veri gir................................passed
+And geçerli bir password gir................................................passed
+And submit butonuna tıkla...................................................passed
+And Student saved successfully mesajını doğrula.............................passed
+And Student Listte son sayfaya git..........................................passed
+Then Oluşturulan Studentin Student Number'inin otomatik geldiğini doğrula...passed
+]]></system-out>
+</testcase>
+</testsuite>
